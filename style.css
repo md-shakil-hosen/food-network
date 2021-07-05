@@ -2,11 +2,20 @@ body{
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.flexibale-container{
+    display: flex;
+}
 h1{
     font-size: 50px;
     font-weight: 700px;
 }
-p{
+h2{
+    font-size: 35px;
+}
+.top-p{
+    margin-bottom: 50px;
+}
+.banner-p{
     margin-bottom: 50px;
 }
 .green-font{
@@ -21,20 +30,67 @@ p{
     padding: 8px 28px;
     border-radius: 100px;
 }
-.food-man-image{
+.food-man-img img{
     width: 60%;
     padding-left: 18%;
 }
+.about-man-img img{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 50px;   
+}
+/*
 #top-banner{
     background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+    margin-bottom: 30px;
    
+}
+*/
+#about-banner{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position-x:left;
+    background-size: cover;   
+}
+.food-man-about{
+    width: 90%;
+    padding-right: 80px;
+    text-align: justify;
+    text-align: center;
 }
 .food-man{
     width: 40%;
     margin-left: 5%;
     padding-left: 5%;
 }
-.flexibale-container{
+.recipis-title{
+    text-align: center;
+}
+.flex-box{
     display: flex;
+}
+.box-one{
+    width: 20%;
+    text-align: left;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.box-one img{
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid #fbfbfb ;
+    
+}
+.box-one-margin{
+    margin-left: 30px;
 }

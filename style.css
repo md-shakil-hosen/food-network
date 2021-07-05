@@ -1,4 +1,40 @@
-*{
+body{
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700px;
+}
+p{
+    margin-bottom: 50px;
+}
+.green-font{
+    color: #19b93e;
+}
+.btn-order{
+    text-decoration: none;
+    font-weight: 700px;
+    border: 1px solid #19b93e;
+    background-color: #19b93e;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 100px;
+}
+.food-man-image{
+    width: 60%;
+    padding-left: 18%;
+}
+#top-banner{
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+   
+}
+.food-man{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.flexibale-container{
+    display: flex;
 }

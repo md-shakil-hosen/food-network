@@ -2,9 +2,7 @@ body{
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.flexibale-container{
-    display: flex;
-}
+/*All Tag */
 h1{
     font-size: 50px;
     font-weight: 700px;
@@ -22,6 +20,11 @@ h3{
     color: white;  
     border-radius: 8px;
 }
+/*All Tag */
+/*Food man Area stert*/
+.flexibale-container{
+    display: flex;
+}
 .top-p{
     margin-bottom: 20px;
     font-size: 20px;
@@ -31,9 +34,6 @@ h3{
     text-align: left;
     font-size: 20px;
 }
-.green-font{
-    color: #19b93e;
-}
 .btn-order{
     text-decoration: none;
     font-weight: 700px;
@@ -42,25 +42,21 @@ h3{
     padding: 8px 28px;
     border-radius: 10px;
 }
+
+.green-font{
+    color: #19b93e;
+}
 .food-man-img img{
     width: 60%;
     padding-left: 18%;
 }
+/*Food man Area end*/
+/*About Area Start*/
 .about-man-img img{
     width: 50%;
     margin-top: 30px;
     margin-left: 50px;   
 }
-/*
-#top-banner{
-    background-image: url(images/Frame\ 59.jpg);
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-size: cover;
-    margin-bottom: 30px;
-   
-}
-*/
 #about-banner{
     background-image: url(images/Frame\ 58.jpg);
     background-repeat: no-repeat;
@@ -73,11 +69,8 @@ h3{
     text-align: justify;
     text-align: center;
 }
-.food-man{
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 5%;
-}
+/*About Area End*/
+/*Food racipi area Start*/
 .recipis-title{
     text-align: center;
 
@@ -107,25 +100,67 @@ h3{
     border: 5px solid #fbfbfb ;
     
 }
-.box-one-margin{
-    margin-left: 30px;
-}
+/*Food racipi area End*/
+/*Food Blog Documantation Section Start*/
 .food-news-banner{
     background-image: url(images/pexels-daria-shevtsova-1095550.jpg);
     background-size: cover;
     height: 290px;
     padding: 15px;
 }
+.flex-box-menu{
+    display: flex;
+    width: 100%;
+}
+.box-one-margin{
+    margin-left: 30px;
+}
+
 .news-p{
     margin: 0;
     font-size: 90px;
     font-weight:bolder;
     text-align: center;
 }
-.flex-box-menu{
-    display: flex;
-    width: 100%;
+.food-man{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
 }
+/*Food Blog Documantation Section End*/
+/*Food Gelary Section Start*/
+#vegetables-box-menu{
+    padding: 30px;
+    }
+    .vs-items{
+        text-align: center;
+    }
+    .vegetables-blog{
+        width: 20%;
+        text-align: left;   
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 40px;   
+    }
+    .vegetables-blog img{
+        height: 200px;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    .vegetables-blog h3{
+        border: 1px solid #19b93e;
+        background-color: #19b93e;
+        padding: 8px;
+        width: 48%;
+        text-align: center;
+        color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+/*Food Gelary Section Start*/
+/*footer section Start*/
 #footer-container{
     height: 250px;
     background-color:#0b0e17;
@@ -136,36 +171,7 @@ h3{
     padding-top: 20px;
     color: white;
 }
-#vegetables-box-menu{
-padding: 30px;
-}
-.vs-items{
-    text-align: center;
-}
-.vegetables-blog{
-    width: 20%;
-    text-align: left;   
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 40px;   
-}
-.vegetables-blog img{
-    height: 200px;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.vegetables-blog h3{
-    border: 1px solid #19b93e;
-    background-color: #19b93e;
-    padding: 8px;
-    width: 48%;
-    text-align: center;
-    color: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
+
 .link-btn  a{
     text-decoration: none;
     padding: 8px 15px;
@@ -178,3 +184,4 @@ padding: 30px;
     padding: 15px;
     margin-left: 40px;
 }
+/*footer section End*/

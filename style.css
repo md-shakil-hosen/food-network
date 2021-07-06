@@ -11,6 +11,7 @@ h1{
 }
 h2{
     font-size: 35px;
+    font-weight: bolder;
 }
 h3{
     border: 1px solid #19b93e;
@@ -127,7 +128,7 @@ h3{
 }
 #footer-container{
     height: 250px;
-    background-color: #262626;
+    background-color:#0b0e17;
     margin-top: 30px;
 }
 .footer{
@@ -165,4 +166,15 @@ padding: 30px;
     color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-   
+.link-btn  a{
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: 5px;
+    color: white;
+    text-align: center;   
+} 
+.address{
+    color: white;
+    padding: 15px;
+    margin-left: 40px;
+}

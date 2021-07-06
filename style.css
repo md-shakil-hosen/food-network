@@ -12,11 +12,23 @@ h1{
 h2{
     font-size: 35px;
 }
+h3{
+    border: 1px solid #19b93e;
+    background-color: #19b93e;
+    padding: 8px;
+    width: 48%;
+    text-align: center;
+    color: white;  
+    border-radius: 8px;
+}
 .top-p{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 .banner-p{
     margin-bottom: 50px;
+    text-align: left;
+    font-size: 20px;
 }
 .green-font{
     color: #19b93e;
@@ -24,11 +36,10 @@ h2{
 .btn-order{
     text-decoration: none;
     font-weight: 700px;
-    border: 1px solid #19b93e;
-    background-color: #19b93e;
+    background-image: linear-gradient(to right, #2fff40 0%, #35a83e  100%);
     color: white;
     padding: 8px 28px;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 .food-man-img img{
     width: 60%;
@@ -68,24 +79,28 @@ h2{
 }
 .recipis-title{
     text-align: center;
+
+}
+#recipis-items{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .flex-box{
     display: flex;
+    padding: 20px;
 }
 .box-one{
     width: 20%;
     text-align: left;   
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 0 auto;
     border-radius: 10px;
-    padding: 10px;
     margin-bottom: 40px;
+    margin-left: 50px;
+    padding: 38px;
     
 }
 .box-one img{
     height: 200px;
-    padding: 10px;
-    margin: 10px;
     align-items: center;
     border-radius: 10px;
     border: 5px solid #fbfbfb ;
@@ -120,3 +135,34 @@ h2{
     padding-top: 20px;
     color: white;
 }
+#vegetables-box-menu{
+padding: 30px;
+}
+.vs-items{
+    text-align: center;
+}
+.vegetables-blog{
+    width: 20%;
+    text-align: left;   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 40px;   
+}
+.vegetables-blog img{
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.vegetables-blog h3{
+    border: 1px solid #19b93e;
+    background-color: #19b93e;
+    padding: 8px;
+    width: 48%;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+   
